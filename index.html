@@ -7,7 +7,17 @@
     <title>IP Geolocation App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <form id="ip-form">
+        <label for="lookup-ip">Ingrese una dirección IP</label>
+        <input id="lookup-ip" type="text" name="lookupIp">
+        <input type="submit" value="Buscar geolocalizacion">
+      </form>
+
+      <div id="ip-info-container">
+        
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
